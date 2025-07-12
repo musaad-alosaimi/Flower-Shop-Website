@@ -195,17 +195,7 @@ Images are currently loaded from Unsplash. For production:
 ### Custom Server
 Upload all files to your web hosting provider's public directory.
 
-## 📞 Support
-
-For customization or support:
-- WhatsApp: +966501234567
-- Email: info@gardeniabloom.sa
-- Instagram: [@gardeniabloom.sa](https://www.instagram.com/gardeniabloom.sa/)
 
 ## 📄 License
 
 This project is created for Gardenia Bloom flower shop. All rights reserved.
-
----
-
-**Built with ❤️ for زهرة القاردينيا | Gardenia Bloom** 
