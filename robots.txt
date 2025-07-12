@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Allow: /en
+Allow: /assets/
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+
+# Disallow common unwanted paths
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /*.tmp$
+Disallow: /*.log$
+
+# Sitemap location
+Sitemap: https://www.gardeniabloom.sa/sitemap.xml
+
+# Crawl delay (optional, helps with server load)
+Crawl-delay: 1 

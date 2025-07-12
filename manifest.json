@@ -1,0 +1,116 @@
+{
+    "name": "زهرة القاردينيا | Gardenia Bloom",
+    "short_name": "Gardenia Bloom",
+    "description": "متجر زهور راقي متخصص في باقات الورود المميزة وتنسيق الأعراس والمناسبات في المملكة العربية السعودية",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#f7f3f0",
+    "theme_color": "#b08181",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "ar",
+    "dir": "rtl",
+    "categories": ["business", "shopping", "lifestyle"],
+    "screenshots": [
+        {
+            "src": "./assets/images/screenshot-mobile.jpg",
+            "sizes": "375x667",
+            "type": "image/jpeg",
+            "form_factor": "narrow"
+        },
+        {
+            "src": "./assets/images/screenshot-desktop.jpg",
+            "sizes": "1920x1080",
+            "type": "image/jpeg",
+            "form_factor": "wide"
+        }
+    ],
+    "icons": [
+        {
+            "src": "./assets/images/icon-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "./assets/images/icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "./assets/images/icon-128x128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "./assets/images/icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "./assets/images/icon-152x152.png",
+            "sizes": "152x152",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "./assets/images/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "./assets/images/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "./assets/images/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable any"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "باقاتنا",
+            "short_name": "باقات",
+            "description": "استكشف باقات الورود المميزة",
+            "url": "/#bouquets",
+            "icons": [
+                {
+                    "src": "./assets/images/bouquet-icon.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "طلبات مخصصة",
+            "short_name": "طلبات",
+            "description": "اطلب باقة مخصصة",
+            "url": "/#custom-orders",
+            "icons": [
+                {
+                    "src": "./assets/images/custom-icon.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "واتساب",
+            "short_name": "واتساب",
+            "description": "اتصل بنا عبر الواتساب",
+            "url": "https://wa.me/966501234567",
+            "icons": [
+                {
+                    "src": "./assets/images/whatsapp-icon.png",
+                    "sizes": "96x96"
+                }
+            ]
+        }
+    ]
+} 

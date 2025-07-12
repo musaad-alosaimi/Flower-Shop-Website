@@ -132,7 +132,11 @@ const translations = {
     meta: {
         title: "Gardenia Bloom - Premium Flower Shop",
         description: "Premium flower shop specializing in distinctive bouquets, wedding arrangements, and special occasions in Saudi Arabia",
-        keywords: "flowers, bouquets, wedding, events, gardenia, roses, premium, Saudi Arabia"
+        keywords: "Florist, Saudi Arabia, Dawadmi, flowers, bouquets, wedding, events, gardenia, roses, premium, gifts, Florist shop, Gift shop, Wedding Shop, Souvenir Shop, Flower delivery, Flower designer, Florist store, Gift store, Wedding store, Souvenir Store",
+        ogTitle: "Gardenia Bloom | زهرة القاردينيا",
+        ogDescription: "Premium flower shop specializing in distinctive bouquets, wedding arrangements, and special occasions",
+        twitterTitle: "Gardenia Bloom | زهرة القاردينيا",
+        twitterDescription: "Premium flower shop specializing in distinctive bouquets, wedding arrangements, and special occasions"
     },
 
     // WhatsApp messages
