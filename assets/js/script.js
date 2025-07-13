@@ -7,6 +7,11 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeWebsite();
 });
 
+// Handle URL changes without page reload (browser navigation)
+window.addEventListener('popstate', function() {
+    smoothScrollToSection();
+});
+
 // Initialize Website
 function initializeWebsite() {
     detectLanguageFromURL();
@@ -19,6 +24,7 @@ function initializeWebsite() {
     setupParallaxEffect();
     addLoadingAnimations();
     updateLanguageToggle();
+    smoothScrollToSection(); // Add this to handle URL-based scrolling
 }
 
 // Detect Language from URL
@@ -41,20 +47,50 @@ function detectLanguageFromURL() {
 }
 
 function smoothScrollToSection(){
-
     const path = window.location.pathname;
     
-    console.log(path);
-
-    const target = document.getElementById(path);
-
-    target.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-        inline: 'nearest'
-    })
+    // Extract section name from path
+    let sectionName = '';
     
-
+    // Handle different URL formats
+    if (path === '/' || path === '/en' || path === '/en/') {
+        // Home page - no scrolling needed
+        return;
+    }
+    
+    // Remove leading slash and language prefix
+    let cleanPath = path.replace(/^\//, ''); // Remove leading slash
+    
+    // If path starts with 'en/', remove it
+    if (cleanPath.startsWith('en/')) {
+        cleanPath = cleanPath.replace('en/', '');
+    }
+    
+    // Remove trailing slash if present
+    cleanPath = cleanPath.replace(/\/$/, '');
+    
+    // If we have a section name, scroll to it
+    if (cleanPath) {
+        sectionName = cleanPath;
+        
+        console.log('Scrolling to section:', sectionName);
+        
+        const target = document.getElementById(sectionName);
+        
+        if (target) {
+            // Add a small delay to ensure page is fully loaded
+            setTimeout(() => {
+                const offsetTop = target.offsetTop - 80; // Account for fixed navbar
+                
+                window.scrollTo({
+                    top: offsetTop,
+                    behavior: 'smooth'
+                });
+            }, 100);
+        } else {
+            console.warn('Section not found:', sectionName);
+        }
+    }
 }
 
 // Setup Translations
