@@ -113,8 +113,8 @@ const translations = {
         phone: {
             title: "Phone"
         },
-        email: {
-            title: "Email"
+        instagram: {
+            title: "Instagram"
         },
         hours: {
             title: "Working Hours",
