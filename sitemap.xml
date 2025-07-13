@@ -4,50 +4,50 @@
     
     <!-- Arabic Main Page -->
     <url>
-        <loc>https://www.gardeniabloom.sa/</loc>
+        <loc>https://gardenia-bloom.onrender.com/</loc>
         <lastmod>2024-01-01</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.gardeniabloom.sa/en"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://www.gardeniabloom.sa/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gardenia-bloom.onrender.com/en"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://gardenia-bloom.onrender.com/"/>
     </url>
     
     <!-- English Version -->
     <url>
-        <loc>https://www.gardeniabloom.sa/en</loc>
+        <loc>https://gardenia-bloom.onrender.com/en</loc>
         <lastmod>2024-01-01</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.gardeniabloom.sa/en"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://www.gardeniabloom.sa/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gardenia-bloom.onrender.com/en"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://gardenia-bloom.onrender.com/"/>
     </url>
     
     <!-- Additional potential pages -->
     <url>
-        <loc>https://www.gardeniabloom.sa/bouquets</loc>
+        <loc>https://gardenia-bloom.onrender.com/bouquets</loc>
         <lastmod>2024-01-01</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.gardeniabloom.sa/en/bouquets"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://www.gardeniabloom.sa/bouquets"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gardenia-bloom.onrender.com/en/bouquets"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://gardenia-bloom.onrender.com/bouquets"/>
     </url>
     
     <url>
-        <loc>https://www.gardeniabloom.sa/weddings</loc>
+        <loc>https://gardenia-bloom.onrender.com/weddings</loc>
         <lastmod>2024-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.gardeniabloom.sa/en/weddings"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://www.gardeniabloom.sa/weddings"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gardenia-bloom.onrender.com/en/weddings"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://gardenia-bloom.onrender.com/weddings"/>
     </url>
     
     <url>
-        <loc>https://www.gardeniabloom.sa/contact</loc>
+        <loc>https://gardenia-bloom.onrender.com/contact</loc>
         <lastmod>2024-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.gardeniabloom.sa/en/contact"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://www.gardeniabloom.sa/contact"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gardenia-bloom.onrender.com/en/contact"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://gardenia-bloom.onrender.com/contact"/>
     </url>
     
 </urlset> 

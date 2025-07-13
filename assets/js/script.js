@@ -1,6 +1,6 @@
 // Global Variables
 let currentLanguage = 'ar'; // Default to Arabic
-const phoneNumber = '+966501234567'; // WhatsApp number
+const phoneNumber = '+966502305657'; // WhatsApp number
 
 // DOM Content Loaded
 document.addEventListener('DOMContentLoaded', function() {
@@ -38,6 +38,23 @@ function detectLanguageFromURL() {
     // Update body class
     document.body.className = document.body.className.replace(/lang-\w+/g, '');
     document.body.classList.add(`lang-${currentLanguage}`);
+}
+
+function smoothScrollToSection(){
+
+    const path = window.location.pathname;
+    
+    console.log(path);
+
+    const target = document.getElementById(path);
+
+    target.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+        inline: 'nearest'
+    })
+    
+
 }
 
 // Setup Translations
@@ -346,7 +363,7 @@ function openWhatsApp() {
     if (currentLanguage === 'en' && typeof translations !== 'undefined') {
         message = translations.whatsapp.defaultMessage;
     } else {
-        message = 'مرحباً، أود الاستفسار عن باقات الزهور المتاحة';
+        message = 'أهلاً، أبغا أستفسر عن الباقات الموجودة.';
     }
     
     const encodedMessage = encodeURIComponent(message);
