@@ -12,7 +12,7 @@
         <xhtml:link rel="alternate" hreflang="ar" href="https://gardenia-bloom.onrender.com/"/>
     </url>
     
-    <!-- English Version -->
+    <!-- English Main Page -->
     <url>
         <loc>https://gardenia-bloom.onrender.com/en</loc>
         <lastmod>2024-01-01</lastmod>
@@ -22,30 +22,102 @@
         <xhtml:link rel="alternate" hreflang="ar" href="https://gardenia-bloom.onrender.com/"/>
     </url>
     
-    <!-- Additional potential pages -->
+    <!-- Bouquets Section - Arabic -->
     <url>
         <loc>https://gardenia-bloom.onrender.com/bouquets</loc>
         <lastmod>2024-01-01</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
+        <priority>0.9</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://gardenia-bloom.onrender.com/en/bouquets"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://gardenia-bloom.onrender.com/bouquets"/>
     </url>
     
+    <!-- Bouquets Section - English -->
+    <url>
+        <loc>https://gardenia-bloom.onrender.com/en/bouquets</loc>
+        <lastmod>2024-01-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gardenia-bloom.onrender.com/en/bouquets"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://gardenia-bloom.onrender.com/bouquets"/>
+    </url>
+    
+    <!-- Custom Orders Section - Arabic -->
+    <url>
+        <loc>https://gardenia-bloom.onrender.com/customOrders</loc>
+        <lastmod>2024-01-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gardenia-bloom.onrender.com/en/customOrders"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://gardenia-bloom.onrender.com/customOrders"/>
+    </url>
+    
+    <!-- Custom Orders Section - English -->
+    <url>
+        <loc>https://gardenia-bloom.onrender.com/en/customOrders</loc>
+        <lastmod>2024-01-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gardenia-bloom.onrender.com/en/customOrders"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://gardenia-bloom.onrender.com/customOrders"/>
+    </url>
+    
+    <!-- Weddings & Events Section - Arabic -->
     <url>
         <loc>https://gardenia-bloom.onrender.com/weddings</loc>
         <lastmod>2024-01-01</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <priority>0.8</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://gardenia-bloom.onrender.com/en/weddings"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://gardenia-bloom.onrender.com/weddings"/>
     </url>
     
+    <!-- Weddings & Events Section - English -->
+    <url>
+        <loc>https://gardenia-bloom.onrender.com/en/weddings</loc>
+        <lastmod>2024-01-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gardenia-bloom.onrender.com/en/weddings"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://gardenia-bloom.onrender.com/weddings"/>
+    </url>
+    
+    <!-- About Us Section - Arabic -->
+    <url>
+        <loc>https://gardenia-bloom.onrender.com/about</loc>
+        <lastmod>2024-01-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gardenia-bloom.onrender.com/en/about"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://gardenia-bloom.onrender.com/about"/>
+    </url>
+    
+    <!-- About Us Section - English -->
+    <url>
+        <loc>https://gardenia-bloom.onrender.com/en/about</loc>
+        <lastmod>2024-01-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gardenia-bloom.onrender.com/en/about"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://gardenia-bloom.onrender.com/about"/>
+    </url>
+    
+    <!-- Contact Section - Arabic -->
     <url>
         <loc>https://gardenia-bloom.onrender.com/contact</loc>
         <lastmod>2024-01-01</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gardenia-bloom.onrender.com/en/contact"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://gardenia-bloom.onrender.com/contact"/>
+    </url>
+    
+    <!-- Contact Section - English -->
+    <url>
+        <loc>https://gardenia-bloom.onrender.com/en/contact</loc>
+        <lastmod>2024-01-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://gardenia-bloom.onrender.com/en/contact"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://gardenia-bloom.onrender.com/contact"/>
     </url>
