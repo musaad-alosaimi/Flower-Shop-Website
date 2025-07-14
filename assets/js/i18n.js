@@ -108,7 +108,7 @@ const translations = {
         description: "We are here to help you choose the perfect bouquet for your occasion",
         address: {
             title: "Address",
-            text: "Riyadh, Saudi Arabia"
+            text: "Saudi Arabia, Riyadh, Dawadmi city"
         },
         phone: {
             title: "Phone"

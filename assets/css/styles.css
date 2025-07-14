@@ -635,6 +635,9 @@ section {
 .contact-item {
     display: flex;
     align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row !important;
+    text-align: start;
     gap: 20px;
     padding: 25px;
     background: var(--background-cream);
