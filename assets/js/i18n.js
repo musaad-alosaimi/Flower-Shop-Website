@@ -32,20 +32,20 @@ const translations = {
         title: "Our Signature Bouquets",
         description: "A curated collection of the finest bouquets designed with utmost care",
         bouquet1: {
-            title: "Classic Rose Bouquet",
-            price: "250 SAR"
+            title: "Rose Bouquet",
+            price: "130 SAR"
         },
         bouquet2: {
-            title: "Enchanting Spring Bouquet",
-            price: "180 SAR"
+            title: "Spring Bouquet",
+            price: "110 SAR"
         },
         bouquet3: {
-            title: "Pink Elegance Bouquet",
-            price: "320 SAR"
+            title: "Elegance Bouquet",
+            price: "100 SAR"
         },
         bouquet4: {
             title: "Luxury Gardenia Bouquet",
-            price: "450 SAR"
+            price: "230 SAR"
         }
     },
 
