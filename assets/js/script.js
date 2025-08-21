@@ -543,20 +543,23 @@ function setupLanguageToggle() {
         });
     }
 
-    if (currentLanguage === 'ar') {
-        
-        const navMenu = document.getElementById('nav-menu');
-        navMenu.querySelectorAll("a").forEach((item) => {
-
-            item.href = "/en"+item.href
-        })
-
-    } else {
-
-        const navMenu = document.getElementById('nav-menu');
-        navMenu.querySelectorAll("a").forEach((item) => {
-            item.href = "/ar"+item.href
-        })
+    // Update navigation links with proper language prefix
+    const navMenu = document.getElementById('nav-menu');
+    if (navMenu) {
+        navMenu.querySelectorAll("a:not(#lang-toggle)").forEach((item) => {
+            const href = item.getAttribute('href');
+            // Only modify internal links that start with # or /
+            if (href && (href.startsWith('#') || href.startsWith('/'))) {
+                // For hash links, prefix with language
+                if (href.startsWith('#')) {
+                    item.href = currentLanguage === 'ar' ? `/en${href}` : href;
+                } else {
+                    // For path links, ensure proper language prefix
+                    const cleanPath = href.replace(/^\/(?:en\/)?/, '/');
+                    item.href = currentLanguage === 'ar' ? `/en${cleanPath}` : cleanPath;
+                }
+            }
+        });
     }
 }
 
