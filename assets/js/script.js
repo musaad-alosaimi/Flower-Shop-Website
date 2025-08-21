@@ -542,6 +542,22 @@ function setupLanguageToggle() {
             }
         });
     }
+
+    if (currentLanguage === 'ar') {
+        
+        const navMenu = document.getElementById('nav-menu');
+        navMenu.querySelectorAll("a").forEach((item) => {
+
+            item.href = "/en"+item.href
+        })
+
+    } else {
+
+        const navMenu = document.getElementById('nav-menu');
+        navMenu.querySelectorAll("a").forEach((item) => {
+            item.href = "/ar"+item.href
+        })
+    }
 }
 
 // Image Lazy Loading
@@ -602,6 +618,7 @@ document.addEventListener('DOMContentLoaded', function() {
     setupLanguageToggle();
     setupLazyLoading();
     optimizePerformance();
+
 
     document.querySelectorAll(".date-year").forEach((item) => {
         item.innerText = (new Date()).getFullYear();
