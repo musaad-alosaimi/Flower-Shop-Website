@@ -552,11 +552,11 @@ function setupLanguageToggle() {
             if (href && (href.startsWith('#') || href.startsWith('/'))) {
                 // For hash links, prefix with language
                 if (href.startsWith('#')) {
-                    item.href = currentLanguage === 'ar' ? `/en${href}` : href;
+                    item.href = currentLanguage === 'en' ? `/en${href}` : href;
                 } else {
                     // For path links, ensure proper language prefix
                     const cleanPath = href.replace(/^\/(?:en\/)?/, '/');
-                    item.href = currentLanguage === 'ar' ? `/en${cleanPath}` : cleanPath;
+                    item.href = currentLanguage === 'en' ? `/en${cleanPath}` : cleanPath;
                 }
             }
         });
