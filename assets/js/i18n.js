@@ -9,6 +9,7 @@ const translations = {
         customOrders: "Custom Orders",
         weddings: "Weddings & Events",
         about: "About Us",
+        location: "Location",
         contact: "Contact"
     },
 
