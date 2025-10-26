@@ -119,7 +119,7 @@ const translations = {
         },
         hours: {
             title: "Working Hours",
-            text: "Saturday - Thursday: 9:00 AM - 10:00 PM"
+            text: "Saturday - Thursday: 9:30 AM - 12:00 PM, 3:30 PM - 10:30 PM"
         },
         followUs: "Follow Us"
     },
