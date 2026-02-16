@@ -153,7 +153,9 @@ p {
 .nav-menu {
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 1.4rem;
+    text-align: center;
+    margin: 20px;
 }
 
 .nav-link {
@@ -162,6 +164,10 @@ p {
     font-weight: 500;
     transition: all 0.3s ease;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .nav-link::after {

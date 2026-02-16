@@ -84,6 +84,199 @@
     <!-- i18n JavaScript -->
     <script src="https://gardenia-bloom.onrender.com/assets/js/i18n.js"></script>
 
+    <!-- Store Button Styles -->
+    <style>
+        /* Store button in hero section */
+        .btn-store {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white !important;
+            font-weight: 700;
+            font-size: 1.2rem;
+            padding: 18px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(40, 167, 69, 0.3);
+            animation: pulse-store 2s infinite;
+            border: 3px solid #fff;
+        }
+
+        .btn-store:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 15px 40px rgba(40, 167, 69, 0.5);
+            background: linear-gradient(135deg, #20c997 0%, #28a745 100%);
+        }
+
+        @keyframes pulse-store {
+            0%, 100% {
+                box-shadow: 0 10px 30px rgba(40, 167, 69, 0.3);
+            }
+            50% {
+                box-shadow: 0 10px 40px rgba(40, 167, 69, 0.6);
+            }
+        }
+
+        /* Store link in navigation */
+        .nav-link-store {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white !important;
+            font-weight: 700;
+            padding: 10px 20px;
+            border-radius: 25px;
+            margin-left: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link-store:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(40, 167, 69, 0.4);
+            background: linear-gradient(135deg, #20c997 0%, #28a745 100%);
+        }
+
+        /* Store Banner Section */
+        .store-banner {
+            background: var(--gradient-primary);
+            padding: 40px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .store-banner::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><text x="10" y="50" font-size="40" opacity="0.1">🌸</text></svg>') repeat;
+            opacity: 0.3;
+        }
+
+        .store-banner-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+            position: relative;
+            z-index: 1;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            padding: 30px 40px;
+            border-radius: 20px;
+            /* box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2); */
+        }
+
+        .store-banner-icon {
+            font-size: 4rem;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .store-banner-text {
+            flex: 1;
+            color: white;
+        }
+
+        .store-banner-title {
+            color: #FFF;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            font-family: 'Tajawal', sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .store-banner-subtitle {
+            color: #FFF;
+            font-size: 1.1rem;
+            opacity: 0.95;
+            font-family: 'Tajawal', sans-serif;
+        }
+
+        .store-banner-btn {
+            background: white;
+            color: #333;
+            padding: 18px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            white-space: nowrap;
+        }
+
+        .store-banner-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+            background: #f8f9fa;
+        }
+
+        .store-banner-btn .arrow {
+            transition: transform 0.3s ease;
+            display: inline-block;
+        }
+
+        .store-banner-btn:hover .arrow {
+            transform: translateX(-5px);
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .btn-store {
+                font-size: 1rem;
+                padding: 15px 30px;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            
+            .nav-link-store {
+                margin-left: 0;
+                margin-bottom: 10px;
+                display: block;
+                text-align: center;
+            }
+
+            .store-banner-content {
+                flex-direction: column;
+                text-align: center;
+                padding: 25px 20px;
+            }
+
+            .store-banner-icon {
+                font-size: 3rem;
+            }
+
+            .store-banner-title {
+                font-size: 1.5rem;
+            }
+
+            .store-banner-subtitle {
+                font-size: 1rem;
+            }
+
+            .store-banner-btn {
+                width: 100%;
+                justify-content: center;
+                padding: 15px 30px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+
     <!-- Location Section Styles -->
     <style>
         .location {
@@ -314,6 +507,9 @@
                 </h1>
             </div>
             <div class="nav-menu" id="nav-menu">
+                <a href="https://salla.sa/gardeniabloom" target="_blank" class="nav-link" data-translate="nav.store">
+                    🛍️ المتجر الإلكتروني
+                </a>
                 <a href="/home" class="nav-link" data-translate="nav.home">
                     الرئيسية
                 </a>
@@ -358,7 +554,7 @@
                 حيث تتفتح الأحلام في أجمل الباقات
             </p>
             <div class="hero-buttons">
-                <a href="#bouquets" class="btn btn-primary" data-translate="hero.exploreBouquets">
+                <a href="https://salla.sa/gardeniabloom" target="_blank" class="btn btn-primary" data-translate="hero.exploreBouquets">
                     استكشف باقاتنا
                 </a>
                 <a href="#custom-orders" class="btn btn-secondary" data-translate="hero.customOrder">
@@ -371,6 +567,23 @@
             <span class="scroll-text" data-translate="hero.scrollDown">
                 مرر لأسفل
             </span>
+        </div>
+    </section>
+
+    <!-- Online Store Banner -->
+    <section class="store-banner">
+        <div class="container">
+            <div class="store-banner-content">
+                <div class="store-banner-icon">🛍️</div>
+                <div class="store-banner-text">
+                    <h3 class="store-banner-title">تسوق الآن من متجرنا الإلكتروني</h3>
+                    <p class="store-banner-subtitle">اطلب باقات الورد والهدايا المميزة بكل سهولة من خلال متجرنا على منصة سلة</p>
+                </div>
+                <a href="https://salla.sa/gardeniabloom" target="_blank" class="store-banner-btn">
+                    زيارة المتجر
+                    <span class="arrow">←</span>
+                </a>
+            </div>
         </div>
     </section>
 
