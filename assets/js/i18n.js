@@ -4,6 +4,7 @@
 const translations = {
     // Navigation
     nav: {
+        store: "🛍️ Online Store",
         home: "Home",
         bouquets: "Our Bouquets",
         customOrders: "Custom Orders",
@@ -23,9 +24,17 @@ const translations = {
     hero: {
         title: "Gardenia Bloom",
         subtitle: "Where dreams bloom in the most beautiful bouquets",
+        shopOnline: "🛍️ Shop Now from Our Store",
         exploreBouquets: "Explore Our Bouquets",
         customOrder: "Custom Order",
         scrollDown: "Scroll Down"
+    },
+
+    // Store Banner section
+    storeBanner: {
+        title: "Shop Now from Our Online Store",
+        subtitle: "Order distinctive flower bouquets and gifts easily through our store on Salla platform",
+        button: "Visit Store"
     },
 
     // Our Bouquets section
